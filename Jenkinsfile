@@ -17,6 +17,12 @@ pipeline {
 		echo "Test"
               }
 	   }
+
+	   stage('unknown test') {
+              steps {
+                 echo " Its happening " 
+              }
+           }	
  
         } 
         post {
