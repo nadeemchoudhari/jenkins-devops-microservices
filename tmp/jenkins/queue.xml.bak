@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.Queue_-State>
+  <counter>1</counter>
+  <items>
+    <hudson.model.Queue_-WaitingItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.triggers.SCMTrigger_-SCMTriggerCause>
+                <pollingLog>Started on Nov 21, 2021, 7:01:00 AM
+no previous build to compare to
+Done. Took 0 ms
+Changes found
+</pollingLog>
+              </hudson.triggers.SCMTrigger_-SCMTriggerCause>
+              <int>1</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>1</id>
+      <task class="org.jenkinsci.plugins.workflow.job.WorkflowJob">devops-jenkins-microservices-pipeline</task>
+      <inQueueSince>1637478060311</inQueueSince>
+      <timestamp>
+        <time>1637478065308</time>
+        <timezone>Etc/UTC</timezone>
+      </timestamp>
+    </hudson.model.Queue_-WaitingItem>
+  </items>
+</hudson.model.Queue_-State>

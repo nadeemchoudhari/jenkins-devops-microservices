@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.42">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1637478094755</timestamp>
+  <startTime>1637478094798</startTime>
+  <result>FAILURE</result>
+  <duration>182</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.scm.NullSCM"/>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@script</workspace>
+      <changelogFile>/var/jenkins_home/jobs/devops-jenkins-microservices-pipeline/builds/1/changelog17796983456492872066.xml</changelogFile>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

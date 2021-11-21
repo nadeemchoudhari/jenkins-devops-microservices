@@ -1,0 +1,121 @@
+Started by user [8mha:////4L9mFpsO/gBxcviTOYK+5hAQac6q8G91+pVLUW+Os9rfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mnadeemc
+Lightweight checkout support not available, falling back to full checkout.
+Checking out git git@github.com:nadeemchoudhari/jenkins-devops-microservices.git into /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@script to read Jenkinsfile
+The recommended git tool is: NONE
+using credential gitssh
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@script/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:nadeemchoudhari/jenkins-devops-microservices.git # timeout=10
+Fetching upstream changes from git@github.com:nadeemchoudhari/jenkins-devops-microservices.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_SSH to set credentials gitssh
+[INFO] Currently running in a labeled security context
+ > /usr/bin/chcon --type=ssh_home_t /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@script@tmp/jenkins-gitclient-ssh9228979529843351399.key
+ > git fetch --tags --force --progress -- git@github.com:nadeemchoudhari/jenkins-devops-microservices.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/main
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 466aecb0996ef3b47a2d3105387a3ef07df6a3a0 (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 466aecb0996ef3b47a2d3105387a3ef07df6a3a0 # timeout=10
+Commit message: "update"
+ > git rev-list --no-walk 466aecb0996ef3b47a2d3105387a3ef07df6a3a0 # timeout=10
+[8mha:////4DbQdiH1wXGUBiQ2RwxG2xoDy3OghdjUNH/uC2sUZQFzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4L9X6XyY/fox2cj19cJF51RQ/+PC1oLpsKj7w2uVnHAAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HpfISGGLHSvwY9NHSWd+Lu5rIgqeSJPp8KNND7pCrpNAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline
+[8mha:////4IGApTo2bMPd2g5mFIo4Wi/0iIlbvvJPV3c1DjcjDgIjAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MYrLdRWoDJsUlJmjt7kcdY4e50fBAVopg9EokEoSN0JAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4LmpSZgZghNVok4o3JTmmk7XqrHIJWa3VF9fnoliwn/gAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4KkXAEIyheElLLfTeBgLiof2jbk4IA2GyT9OWFAIjAZ9AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential gitssh
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:nadeemchoudhari/jenkins-devops-microservices.git # timeout=10
+Fetching upstream changes from git@github.com:nadeemchoudhari/jenkins-devops-microservices.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_SSH to set credentials gitssh
+[INFO] Currently running in a labeled security context
+ > /usr/bin/chcon --type=ssh_home_t /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@tmp/jenkins-gitclient-ssh1539802630711502383.key
+ > git fetch --tags --force --progress -- git@github.com:nadeemchoudhari/jenkins-devops-microservices.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/main
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 466aecb0996ef3b47a2d3105387a3ef07df6a3a0 (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 466aecb0996ef3b47a2d3105387a3ef07df6a3a0 # timeout=10
+Commit message: "update"
+[8mha:////4E7ViBi5MYkaYyjQvuqfpW7/TIgWWZRZFvMPwEMQnEkTAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4HgNC91ceeRvu10Pz6YjN+6MWEKbM0NroJIEQApVDG9jAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4L8fcAAOluDqD7tl0SO0VAOA/QNn2Z4Qu2Qz/6vniE1ZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4K1Opg1eKCGuTRJpfYoxkmXUzAOoTMlJcK4S3RxbUIvoAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4DyHA7s7tbZhliXGf8BAEDZ2jjcmPxV1U2VahXeEOUTEAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4Izdjk7BQLejmwwAg05rmZC6Yz1RHpGPtdw6ZJ3gEOnBAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ docker inspect -f . maven:3.6.3
+.
+[8mha:////4G8RyGWzAADURpPV+jJCQRl5bB8DTS4CDVcZEDAVp5nCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUldgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AHLv803CAAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 2b06f611558e777c140081b9bbbb7e1e00ca85e66fe92a7cf88ddd5db429c17c
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline --volumes-from 2b06f611558e777c140081b9bbbb7e1e00ca85e66fe92a7cf88ddd5db429c17c -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** maven:3.6.3 cat
+$ docker top 0aeb21242bb6d74b0f08736d4610962ba3ccfb20fdb74e1f519cb66ee6caf02b -eo pid,comm
+[8mha:////4H3X5/BpsY3sEl4l59DsvM3r1LUHAsmFDNS8RsqFNhbxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4NXiMuYDSXgTvVWvVvoMtK02C1rfHIxQmy6lUs3U/BWdAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4Od4tLncaK+0jyJpyJdeECBix4viQzLe9WsaI8rh4HSSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build)
+[8mha:////4DdsAhpEokU/a6vsyRUg3L8AB5WNqzaUdQwHkWcX3tj7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
+Pausing
+Resuming
+Aborted by [8mha:////4L9mFpsO/gBxcviTOYK+5hAQac6q8G91+pVLUW+Os9rfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mnadeemc
+Sending interrupt signal to process
+[8mha:////4EF1icn4FRaVU4V7GvjTe85eyV917gACrDF6bIjKDaZvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4BY29BNBeHgqwGe3nkJpAMDahT0OMB1NfltnXe8neAtzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NWvoj5UbqUYooLWKp7/we+7vjn8LkKkjAV9Qj2eUxtZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohURWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHeFw+cwgAAAA==[0m[Pipeline] stage
+[8mha:////4CY7jZ9DYfWNrB7Td0zH2Hjkzo5cvc0QUJtv+7uN0PRCAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Test)
+Stage "Test" skipped due to earlier failure(s)
+[8mha:////4JRq+79+pdBTbwduxdY/uOqE7FY4Ux8SrgRKybsXhn+xAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3Zf21ZL4AAAA=[0m[Pipeline] }
+[8mha:////4INS/lN3ym3rl4aMMFhku9ddP91JG0MycC/qoahtWzqfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BmecueC+AAAA[0m[Pipeline] // stage
+[8mha:////4CTvF82AGojS+GrIcxxqPATsnBWIk/v6hUhggXhstf0kAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIHVCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdn2zedZvQHIVZ4HwgAAAA==[0m[Pipeline] stage
+[8mha:////4G57qz7WWTXvScWjMcdh/Ai0xBar6OeesruaNB8RwV6FAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Integration Test)
+Stage "Integration Test" skipped due to earlier failure(s)
+[8mha:////4D3xQw4xUTjJvHLHYorTuFTkjKP8qvWwlb8JIj3iG7m6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFqe0n4vgAAAA==[0m[Pipeline] }
+[8mha:////4FL9ufr/DD1KusnCe/3GKkDdWPJGkUtklYFJgTPqUV85AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU2/2ndm8FmBaQvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AnWXFfwGypBwPwOeIPSytpcpDABxQY/c5Suw2O3sGGlAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEg1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm+zlVxwwgAAAA==[0m[Pipeline] stage
+[8mha:////4B5KZNuwle9sCQgM9PSTXcoTQSadn/5MoYElXU/cnJszAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] { (unknown test)
+Stage "unknown test" skipped due to earlier failure(s)
+[8mha:////4EAXI68H82GB0wL73sy7tsp/L+0FNq5FRiq2XHJ5nzirAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23ftwcfeL4AAAA=[0m[Pipeline] }
+[8mha:////4Aq6Q7/+DLJoXF8AQUdFXc0UDgl3NInjhnpNCNZk8GDxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AH8/EyevgAAAA==[0m[Pipeline] // stage
+[8mha:////4HAP4Mzpu20nGJo4BvNhjIKM9a0Akr5ZupY3k7KX5BV7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFhvbB3wgAAAA==[0m[Pipeline] stage
+[8mha:////4GqP6aPfzEShjYq0GNdbH/ZmOrDROtqiD7hW9vNX10o1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4CT2k5V7rhBEYPbcq9Dl+9Z5DPALAnwCQqvn7nR6/Y4cAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] echo
+ I run always 
+[8mha:////4OmcrbBJCv1ha9K3Z+pRtYmN9vPWmWZl/fEbl0cmTYXdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Nxbzd2K+AAAA[0m[Pipeline] }
+[8mha:////4Frv73jBaUi3QGGp2nnJFgg0+lXfaQLtRlo9+EfJ+m5gAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpLBwrGwZGk+ACSKE+Z8AkVSeyKt5B9HMWLnFzr5t3vMF6xjgSEEzq3AwGDvDvJt0WSxTGK6OMrN0YR1hJKeYUFlQr04LCkoKllQ1rDhsFHaOokGdYMutvMvGSdTNOYXyHTjUph/hARUv5iRD+sIcYHeb+kj48/wVwOx9grrdf6p9AxC1Tze+AAAA[0m[Pipeline] // stage
+[8mha:////4I+S2LYnUg9nCU6PalEWkmCV2eR2045AMj1FWucqWXolAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4DcsBMHb4AAAA=[0m[Pipeline] }
+$ docker stop --time=1 0aeb21242bb6d74b0f08736d4610962ba3ccfb20fdb74e1f519cb66ee6caf02b
+$ docker rm -f 0aeb21242bb6d74b0f08736d4610962ba3ccfb20fdb74e1f519cb66ee6caf02b
+[8mha:////4EGJ5wZLYLU7rO2J9mPhHA6ea441S3Pn/XTO9KywQAhlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w9BIxehvgAAAA==[0m[Pipeline] // withDockerContainer
+[8mha:////4Joml2lGSBvpK12wTN4mtz2FeN1dqhs7dYm+gwGwYOStAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhEh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP4i41TO+AAAA[0m[Pipeline] }
+[8mha:////4DJrdniPEfnVDVEjYKpBgdtREgkSFrGF7md5vI1LX+FtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhEh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP7tbjo++AAAA[0m[Pipeline] // withEnv
+[8mha:////4HYyR1saitIVqUzPeI5hCAfzZatei0Vw6PyKAjGzZIWhAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAVulI+L0AAAA=[0m[Pipeline] }
+[8mha:////4MqJkMIeqHbpstME4cTx7VxAZd8UySTbCnA8RAOIHWx+AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9FVUxbvQAAAA==[0m[Pipeline] // node
+[8mha:////4D3aAcOEh3FsivD4FvzFECJjL5gcq9jRoYTPgR2v/oSzAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aw7lrnr0AAAA=[0m[Pipeline] End of Pipeline
+java.io.IOException: failed to run ps
+	at org.jenkinsci.plugins.docker.workflow.WithContainerStep$Decorator$1.kill(WithContainerStep.java:341)
+	at org.jenkinsci.plugins.durabletask.FileMonitoringTask$FileMonitoringController.stop(FileMonitoringTask.java:483)
+	at org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.stop(DurableTaskStep.java:513)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.stop(CpsThread.java:319)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$6.onSuccess(CpsFlowExecution.java:1161)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$6.onSuccess(CpsFlowExecution.java:1150)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$4$1.run(CpsFlowExecution.java:917)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.run(CpsVmExecutorService.java:38)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Finished: ABORTED

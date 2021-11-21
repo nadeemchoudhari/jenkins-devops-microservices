@@ -1,0 +1,5 @@
+Started by an SCM change
+Lightweight checkout support not available, falling back to full checkout.
+Checking out hudson.scm.NullSCM into /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@script to read Jenkinsfile
+ERROR: /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@script/Jenkinsfile not found
+Finished: FAILURE

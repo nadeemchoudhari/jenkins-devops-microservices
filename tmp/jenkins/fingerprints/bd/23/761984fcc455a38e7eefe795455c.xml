@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-11-21 07:06:03.599 UTC</timestamp>
+  <md5sum>bd23761984fcc455a38e7eefe795455c</md5sum>
+  <fileName>Credential id=gitssh name=nadeemchoudhari (gitssh)</fileName>
+  <usages>
+    <entry>
+      <string>devops-jenkins-microservices-pipeline</string>
+      <ranges>2-9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

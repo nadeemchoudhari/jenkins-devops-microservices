@@ -1,0 +1,45 @@
+Started by user [8mha:////4L9mFpsO/gBxcviTOYK+5hAQac6q8G91+pVLUW+Os9rfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL9xJTczDwAHhAahcAAAAA=[0mnadeemc
+Replayed [8mha:////4G/jTroY3iS2J295b/UzD6nUsmXvdo/p/U9f3FldQVEHAAAAuB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZd/az8JP2U1LL8gmLdrNS87My8Yt3czOSi/OLUorLM5NRi3YLMglSgc1L1LfQBb75DFOIAAAA=[0m#8
+[8mha:////4DbQdiH1wXGUBiQ2RwxG2xoDy3OghdjUNH/uC2sUZQFzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4L9X6XyY/fox2cj19cJF51RQ/+PC1oLpsKj7w2uVnHAAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HpfISGGLHSvwY9NHSWd+Lu5rIgqeSJPp8KNND7pCrpNAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@2
+[8mha:////4IGApTo2bMPd2g5mFIo4Wi/0iIlbvvJPV3c1DjcjDgIjAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MYrLdRWoDJsUlJmjt7kcdY4e50fBAVopg9EokEoSN0JAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4LmpSZgZghNVok4o3JTmmk7XqrHIJWa3VF9fnoliwn/gAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4KkXAEIyheElLLfTeBgLiof2jbk4IA2GyT9OWFAIjAZ9AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential gitssh
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:nadeemchoudhari/jenkins-devops-microservices.git # timeout=10
+Fetching upstream changes from git@github.com:nadeemchoudhari/jenkins-devops-microservices.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_SSH to set credentials gitssh
+[INFO] Currently running in a labeled security context
+ > /usr/bin/chcon --type=ssh_home_t /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@2@tmp/jenkins-gitclient-ssh11884832081033988413.key
+ > git fetch --tags --force --progress -- git@github.com:nadeemchoudhari/jenkins-devops-microservices.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/main
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 466aecb0996ef3b47a2d3105387a3ef07df6a3a0 (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 466aecb0996ef3b47a2d3105387a3ef07df6a3a0 # timeout=10
+Commit message: "update"
+ > git rev-list --no-walk 466aecb0996ef3b47a2d3105387a3ef07df6a3a0 # timeout=10
+[8mha:////4E7ViBi5MYkaYyjQvuqfpW7/TIgWWZRZFvMPwEMQnEkTAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4HgNC91ceeRvu10Pz6YjN+6MWEKbM0NroJIEQApVDG9jAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4L8fcAAOluDqD7tl0SO0VAOA/QNn2Z4Qu2Qz/6vniE1ZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4K1Opg1eKCGuTRJpfYoxkmXUzAOoTMlJcK4S3RxbUIvoAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4DyHA7s7tbZhliXGf8BAEDZ2jjcmPxV1U2VahXeEOUTEAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4Izdjk7BQLejmwwAg05rmZC6Yz1RHpGPtdw6ZJ3gEOnBAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ docker inspect -f . maven:3.6.3
+.
+[8mha:////4G8RyGWzAADURpPV+jJCQRl5bB8DTS4CDVcZEDAVp5nCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUldgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AHLv803CAAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 2b06f611558e777c140081b9bbbb7e1e00ca85e66fe92a7cf88ddd5db429c17c
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@2 --volumes-from 2b06f611558e777c140081b9bbbb7e1e00ca85e66fe92a7cf88ddd5db429c17c -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** maven:3.6.3 cat
+$ docker top a56f16090c221f35a856bec201375138e25facad362c96111f2fb59c97872269 -eo pid,comm
+[8mha:////4H3X5/BpsY3sEl4l59DsvM3r1LUHAsmFDNS8RsqFNhbxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4NXiMuYDSXgTvVWvVvoMtK02C1rfHIxQmy6lUs3U/BWdAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4Od4tLncaK+0jyJpyJdeECBix4viQzLe9WsaI8rh4HSSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build)
+[8mha:////4DdsAhpEokU/a6vsyRUg3L8AB5WNqzaUdQwHkWcX3tj7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
