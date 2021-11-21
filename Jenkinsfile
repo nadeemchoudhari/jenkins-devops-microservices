@@ -15,7 +15,7 @@ pipeline {
 
 	   stage('Integration Test') {
               steps { 
-		sh '''
+		bash '''
                     #!/bin/bash
 		    node --version
 		'''
