@@ -1,1 +1,21 @@
-Started on Nov 21, 2021, 7:50:11 AM
+Started on Nov 21, 2021, 8:01:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 466aecb0996ef3b47a2d3105387a3ef07df6a3a0 (origin/main)
+The recommended git tool is: NONE
+using credential gitssh
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@2/.git # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url git@github.com:nadeemchoudhari/jenkins-devops-microservices.git # timeout=10
+Fetching upstream changes from git@github.com:nadeemchoudhari/jenkins-devops-microservices.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_SSH to set credentials gitssh
+[INFO] Currently running in a labeled security context
+ > /usr/bin/chcon --type=ssh_home_t /var/jenkins_home/workspace/devops-jenkins-microservices-pipeline@2@tmp/jenkins-gitclient-ssh17142677512601641153.key
+ > git fetch --tags --force --progress -- git@github.com:nadeemchoudhari/jenkins-devops-microservices.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+Seen branch in repository origin/main
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+Done. Took 2.4 sec
+No changes

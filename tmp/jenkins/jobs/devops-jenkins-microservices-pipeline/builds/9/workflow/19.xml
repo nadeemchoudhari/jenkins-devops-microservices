@@ -1,27 +1,17 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <Tag plugin="workflow-support@3.8">
-  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2633.v6baeedc13805">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@2633.v6baeedc13805">
     <parentIds>
-      <string>17</string>
+      <string>18</string>
     </parentIds>
-    <id>18</id>
-    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+    <id>19</id>
+    <startId>17</startId>
   </node>
   <actions>
-    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2633.v6baeedc13805">
-      <arguments>
-        <entry>
-          <string>script</string>
-          <string>mvn --version</string>
-        </entry>
-      </arguments>
-      <sensitiveVariables/>
-      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
-    </cps.a.ArgumentsActionImpl>
+    <wf.a.BodyInvocationAction plugin="workflow-api@2.47"/>
     <wf.a.TimingAction plugin="workflow-api@2.47">
-      <startTime>1637480966471</startTime>
+      <startTime>1637481272877</startTime>
     </wf.a.TimingAction>
-    <s.a.LogStorageAction/>
     <wf.a.ErrorAction plugin="workflow-api@2.47">
       <error class="hudson.AbortException">
         <detailMessage>script returned exit code -2</detailMessage>
