@@ -13,7 +13,7 @@ pipeline {
 
 		sh 'mvn --version'
 		sh 'docker --version'
-                			
+                echo "mavenHome - $mavenHome"			
 		echo "Build"
 		echo "$PATH"
 		echo "BUILD_NUMBER - $env.BUILD_NUMBER"
