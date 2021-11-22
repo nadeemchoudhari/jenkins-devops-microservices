@@ -35,9 +35,9 @@ pipeline {
               }
 	   }
 
-	   stage('unknown test') {
+	   stage('Integration test') {
               steps {
-                 echo " Its happening " 
+                 sh 'mvn failsafe:integration-test failsafe:verify'
               }
            }	
  
